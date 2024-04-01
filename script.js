@@ -1,5 +1,5 @@
 // Exercice pour manipuler le DOM grace au queryselector
 
-// Ici je selectionne le contenu de ma div ayant pour id 'zone jeu'
-let divJeu = document.getElementById("zone jeu");
-console.log(divJeu);
+// Ici je cible tous les inputs contenu dans toutes les div ayant pur class 'zoneChoix'
+let listeInputRadio = document.querySelectorAll(".zoneChoix input");
+console.log(listeInputRadio);
